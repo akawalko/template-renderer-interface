@@ -6,7 +6,7 @@ Interface for a class that renders templates for string and [PSR-7](https://www.
 You can download this library using [Composer](https://getcomposer.org/):
 
 Require
-    php: >=7.4
+    php: >=7.2
 
 
 ```
