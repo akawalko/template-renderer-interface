@@ -64,5 +64,5 @@ interface TemplateRenderer
      * A shortcut method that executes renderToString() or renderToResponse() based on the arguments passed.
      * @return ResponseInterface|string
      */
-    public function render();
+    public function render(...$arguments);
 }

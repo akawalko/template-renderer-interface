@@ -41,6 +41,6 @@ Render the template to string with given data.
 ### renderToResponse(ResponseInterface $response, string $templatePath, $data = []): ResponseInterface;
 Render the template to PSR compliant Response class with given data.
 
-### render();
+### render(...$arguments);
 A shortcut method that executes renderToString() or renderToResponse() based on the arguments passed. 
 Return ResponseInterface or string.
